@@ -7,8 +7,6 @@ scalaVersion := "2.12.8"
 val akkaVersion = "2.5.23"
 
 libraryDependencies += "com.typesafe.akka" %% "akka-actor" % akkaVersion
-libraryDependencies += "com.typesafe.akka" %% "akka-persistence" % akkaVersion
-libraryDependencies += "com.typesafe.akka" %% "akka-persistence-query" % akkaVersion
 libraryDependencies += "com.typesafe.akka" %% "akka-testkit" % akkaVersion
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.8"
 libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.2.3"
